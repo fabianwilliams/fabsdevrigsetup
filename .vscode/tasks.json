@@ -1,0 +1,155 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Install .NET Install Tool",
+      "type": "shell",
+      "command": "code --install-extension ms-dotnettools.vscode-dotnet-runtime",
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "dependsOn": [
+        "Install Adaptive Card Previewer"
+      ]
+    },
+    {
+      "label": "Install Adaptive Card Previewer",
+      "type": "shell",
+      "command": "code --install-extension TeamsDevApp.vscode-adaptive-cards",
+      "problemMatcher": [],
+      "group": "build",
+      "dependsOn": [
+        "Install Azure Account"
+      ]
+    },
+    {
+      "label": "Install Azure Account",
+      "type": "shell",
+      "command": "code --install-extension ms-vscode.azure-account",
+      "problemMatcher": [],
+      "group": "build",
+      "dependsOn": [
+        "Install Azure Functions"
+      ]
+    },
+    {
+      "label": "Install Azure Functions",
+      "type": "shell",
+      "command": "code --install-extension ms-azuretools.vscode-azurefunctions",
+      "problemMatcher": [],
+      "group": "build",
+      "dependsOn": [
+        "Install Azure Machine Learning"
+      ]
+    },
+    {
+      "label": "Install Azure Machine Learning",
+      "type": "shell",
+      "command": "code --install-extension ms-toolsai.vscode-ai",
+      "problemMatcher": [],
+      "group": "build",
+      "dependsOn": [
+        "Install Azure Machine Learning - Remote"
+      ]
+    },
+    {
+      "label": "Install Azure Machine Learning - Remote",
+      "type": "shell",
+      "command": "code --install-extension ms-toolsai.vscode-ai-remote",
+      "problemMatcher": [],
+      "group": "build",
+      "dependsOn": [
+        "Install Azure Resources"
+      ]
+    },
+    {
+      "label": "Install Azure Resources",
+      "type": "shell",
+      "command": "code --install-extension ms-azuretools.vscode-azureresourcegroups",
+      "problemMatcher": [],
+      "group": "build",
+      "dependsOn": [
+        "Install Teams Toolkit"
+      ]
+    },
+    {
+      "label": "Install Teams Toolkit",
+      "type": "shell",
+      "command": "code --install-extension TeamsDevApp.ms-teams-vscode-extension",
+      "problemMatcher": [],
+      "group": "build",
+      "dependsOn": [
+        "Install Semantic Kernel Tools"
+      ]
+    },
+    {
+      "label": "Install Semantic Kernel Tools",
+      "type": "shell",
+      "command": "code --install-extension ms-semantic-kernel.semantic-kernel",
+      "problemMatcher": [],
+      "group": "build",
+      "dependsOn": [
+        "Install YAML"
+      ]
+    },
+    {
+      "label": "Install YAML",
+      "type": "shell",
+      "command": "code --install-extension redhat.vscode-yaml",
+      "problemMatcher": [],
+      "group": "build",
+      "dependsOn": [
+        "Install Prettier - Code formatter"
+      ]
+    },
+    {
+      "label": "Install Prettier - Code formatter",
+      "type": "shell",
+      "command": "code --install-extension esbenp.prettier-vscode",
+      "problemMatcher": [],
+      "group": "build",
+      "dependsOn": [
+        "Install Polyglot Notebooks"
+      ]
+    },
+    {
+      "label": "Install Polyglot Notebooks",
+      "type": "shell",
+      "command": "code --install-extension ms-dotnettools.dotnet-interactive-vscode",
+      "problemMatcher": [],
+      "group": "build",
+      "dependsOn": [
+        "Install Microsoft Kiota"
+      ]
+    },
+    {
+      "label": "Install Microsoft Kiota",
+      "type": "shell",
+      "command": "code --install-extension ms-graph.kiota",
+      "problemMatcher": [],
+      "group": "build",
+      "dependsOn": [
+        "Install Docker"
+      ]
+    },
+    {
+      "label": "Install Docker",
+      "type": "shell",
+      "command": "code --install-extension ms-azuretools.vscode-docker",
+      "problemMatcher": [],
+      "group": "build",
+      "dependsOn": [
+        "Install Bicep"
+      ]
+    },
+    {
+      "label": "Install Bicep",
+      "type": "shell",
+      "command": "code --install-extension ms-azuretools.vscode-bicep",
+      "problemMatcher": [],
+      "group": "build"
+    }
+  ]
+}
