@@ -18,7 +18,11 @@ In this repository, we use Visual Studio Code tasks to automatically install sev
 ## Video Demo
 Watch the one-minute video below to see the extension installation tasks in action:
 
-[![Watch the demo](media/extensionsscreenshot.png)](media/extensionsmovie1m.mp4)
+### Screenshot
+![Screenshot of the extensions](media/extensionsscreenshot.png)
+
+### Watch the Demo Video
+[Watch the demo video](media/extensionsmovie1m.mp4)
 
 ## Current Extensions
 Here is the list of extensions currently being installed automatically:

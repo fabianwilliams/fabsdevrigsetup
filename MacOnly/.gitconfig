@@ -1,0 +1,7 @@
+[user]
+	name = fabian williams
+	email = fabian.williams@microsoft.com
+[core]
+	editor = code
+[init]
+	defaultBranch = main
