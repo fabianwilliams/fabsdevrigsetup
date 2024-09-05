@@ -21,8 +21,8 @@ Watch the one-minute video below to see the extension installation tasks in acti
 ### Screenshot
 ![Screenshot of the extensions](media/extensionsscreenshot.png)
 
-### Watch the Demo Video
-[Watch the demo video](media/extensionsmovie1m.mp4)
+### Watch the Demo Video 
+[Watch the demo video on YouTube](https://youtu.be/fOrO-oJlIXw)
 
 ## Current Extensions
 Here is the list of extensions currently being installed automatically:
