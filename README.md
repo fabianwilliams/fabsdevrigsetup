@@ -46,5 +46,5 @@ Here is the list of extensions currently being installed automatically:
 
 ### Step 1: Clone the Repository
 ```bash
-git clone https://github.com/yourusername/fabsdevrigsetup.git
+git clone https://github.com/fabianwilliams/fabsdevrigsetup.git
 cd fabsdevrigsetup
